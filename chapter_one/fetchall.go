@@ -26,7 +26,7 @@ func main() {
 		fmt.Println(<-ch) // receive from channel ch
 	}
 
-	fmt.Print("%.2fs elapsed\n", time.Since(start).Seconds()) // printing the total time elapsed by the longest
+	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds()) // printing the total time elapsed by the longest
 	// goroutine run.
 }
 
