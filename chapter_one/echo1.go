@@ -18,7 +18,7 @@ func main() {
 		sep = " "
 	}
 	// Looking at the out of this input: 1   2   3   4   5
-	// Output is: 1 2 3 4 5 meaning it doesn't consider the 
+	// Output is: 1 2 3 4 5 meaning it doesn't consider the
 	// extra spaces. Why?
 	fmt.Println(s)
 }

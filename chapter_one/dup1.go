@@ -27,6 +27,6 @@ func main() {
 	}
 
 	// After entering all the characters or strings,
-	// press "Ctrl + D" (EOF) for the program to process 
+	// press "Ctrl + D" (EOF) for the program to process
 	// the input and end.
 }

@@ -1,12 +1,12 @@
 // Author: Alangi Derick
 // Description: Dup2 prints the text of each line that appears more than once
-//              in the standard input, preceded by its count. It reads from stdin 
+//              in the standard input, preceded by its count. It reads from stdin
 //              or from a list of named files.
 
 // Notes:
-/* Supplying multiple files with the same content doesn't treat both separately but 
-   combines the content of both and treat as a single file. So, if the word "go" is 
-   in file1.txt and also in file2.txt, the output is "2     a" and not "1     a", 
+/* Supplying multiple files with the same content doesn't treat both separately but
+   combines the content of both and treat as a single file. So, if the word "go" is
+   in file1.txt and also in file2.txt, the output is "2     a" and not "1     a",
    "1    a" as if they were separate files. Interesting indeed */
 
 package main

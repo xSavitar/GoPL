@@ -1,5 +1,5 @@
 // Author: Alangi Derick
-// Description: Fetchall fetches URLs in parallel and reports 
+// Description: Fetchall fetches URLs in parallel and reports
 //              their times and sizes
 
 package main
@@ -26,8 +26,8 @@ func main() {
 		fmt.Println(<-ch) // receive from channel ch
 	}
 
-	fmt.Print("%.2fs elapsed\n", time.Since(start).Seconds()) // printing the total time elapsed by the longest 
-	 														  // goroutine run.
+	fmt.Print("%.2fs elapsed\n", time.Since(start).Seconds()) // printing the total time elapsed by the longest
+	// goroutine run.
 }
 
 // define the fetch() routine
@@ -37,7 +37,7 @@ func fetch(url string, ch chan<- string) {
 	resp, err := http.Get(url)
 
 	if err != nil {
-		ch <- fmt.Sprint(err) // send to channel ch 
+		ch <- fmt.Sprint(err) // send to channel ch
 		return
 	}
 
