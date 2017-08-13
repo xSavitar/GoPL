@@ -3,6 +3,12 @@
 //              in the standard input, preceded by its count. It reads from stdin 
 //              or from a list of named files.
 
+// Notes:
+/* Supplying multiple files with the same content doesn't treat both separately but 
+   combines the content of both and treat as a single file. So, if the word "go" is 
+   in file1.txt and also in file2.txt, the output is "2     a" and not "1     a", 
+   "1    a" as if they were separate files. Interesting indeed */
+
 package main
 
 import (
@@ -19,7 +25,7 @@ func main() {
 		countLines(os.Stdin, counts)
 	} else { // read from a file by default if supplied and ignore stdin
 		for _, arg := range files {
-			f, err := os.Open(arg)
+			f, err := os.Open(arg) // there is a words.txt file you can supply as os.Args[1]
 			if err != nil {
 				fmt.Fprintf(os.Stderr, "dup2: %v\n", err)
 				continue
