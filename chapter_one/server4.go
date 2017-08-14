@@ -14,7 +14,6 @@ import (
 	"io"
 	"math"
 	"math/rand"
-	"os"
 )
 
 var palette = []color.Color{color.White, color.Black}
