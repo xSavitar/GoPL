@@ -33,7 +33,7 @@ func main() {
 	}
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/count", counter)
-	log.Fatal(http.ListenAndServe("localhost:6000", nil))
+	log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
 
 // counter echoes the number of calls so far.
