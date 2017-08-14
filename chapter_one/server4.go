@@ -5,15 +5,15 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"net/http"
-	"sync"
 	"image"
 	"image/color"
 	"image/gif"
 	"io"
+	"log"
 	"math"
 	"math/rand"
+	"net/http"
+	"sync"
 )
 
 var palette = []color.Color{color.White, color.Black}
