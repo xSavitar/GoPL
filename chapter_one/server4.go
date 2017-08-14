@@ -17,6 +17,13 @@ import (
 	"os"
 )
 
+var palette = []color.Color{color.White, color.Black}
+
+const (
+	whiteIndex = 0 // first color in the palette
+	blackIndex = 1 // next color in the palette
+)
+
 var mu sync.Mutex
 var count int
 
