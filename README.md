@@ -21,4 +21,4 @@ by Alan Donovan &amp; Brian Kernighan.
 
 # Maintainer
 
-This repo is maintained by [https://github.com/ch3nkula](Alangi Derick). Feel free to ping me and let's talk :)
+This repo is maintained by [Alangi Derick](https://github.com/ch3nkula). Feel free to ping me and let's talk :)
