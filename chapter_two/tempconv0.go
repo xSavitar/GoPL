@@ -1,7 +1,7 @@
 // Author: Alangi Derick
-// Description: Package tempconv performs Celsius and Fahrenheit temperature computations.
+// Description: Package tempconv0 performs Celsius and Fahrenheit temperature computations.
 
-// package name is: tempconv
+// package name is: tempconv0
 package tempconv
 
 import "fmt"
