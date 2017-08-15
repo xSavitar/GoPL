@@ -7,7 +7,7 @@ package tempconv
 
 import "fmt"
 
-// Celcius -- UD type in this package
+// Celsius -- UD type in this package
 type Celsius float64
 
 // Fahrenheit -- UD type in this package
