@@ -6,13 +6,15 @@ package tempconv
 
 import "fmt"
 
+// Two UD Types in this package
 type Celsius float64
 type Fahrenheit float64
 
+// constants
 const (
 	AbsoluteZeroC Celsius = -273.15
 	FreezingC     Celsius = 0
-	Boiling       Celsius = 100
+	BoilingC      Celsius = 100
 )
 
 // Celsius to Fahrenheit
