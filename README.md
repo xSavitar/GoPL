@@ -8,7 +8,7 @@ by Alan Donovan &amp; Brian Kernighan.
 
 * Chapter 1: Tutorials (Done!)
 * Chapter 2: Program Structure (Done!) - **Loaded 15.4% ...**
-* Chapter 3: Basic Data Types (Pending)
+* Chapter 3: Basic Data Types (On-going)
 * Chapter 4: Composite Types (Pending)
 * Chapter 5: Functions (Pending)
 * Chapter 6: Methods (Pending)
