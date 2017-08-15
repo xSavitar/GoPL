@@ -21,7 +21,7 @@ func main() {
 		}
 
 		f := tempconv.Fahrenheit(t) // f is of type Fahrenheit
-		c := tempconv.Celsius(t) // c is of type Celsius
+		c := tempconv.Celsius(t)    // c is of type Celsius
 
 		// do the conversion
 		fmt.Printf("%s = %s, %s = %s\n", f, tempconv.FToC(f), c, tempconv.CToF(c))
