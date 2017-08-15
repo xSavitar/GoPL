@@ -6,8 +6,8 @@
 Implementation of Go exercises and codes in Chapters in the book "The Go Programming Language" 
 by Alan Donovan &amp; Brian Kernighan.
 
-* Chapter 1: Tutorials (Done!) - **Loading 7.7% ...**
-* Chapter 2: Program Structure (On-going)
+* Chapter 1: Tutorials (Done!)
+* Chapter 2: Program Structure (Done!) - **Loaded 15.4% ...**
 * Chapter 3: Basic Data Types (Pending)
 * Chapter 4: Composite Types (Pending)
 * Chapter 5: Functions (Pending)
