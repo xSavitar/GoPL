@@ -19,22 +19,22 @@ const (
 	FlagMulticast                      // supports multicast access capability
 )
 
-// IsUp() -- function definition
+// IsUp function definition
 func IsUp(v Flags) bool {
 	return v&FlagUp == FlagUp
 }
 
-// TurnDown() -- function definition
+// TurnDown function definition
 func TurnDown(v *Flags) {
 	*v &^= FlagUp
 }
 
-// SetBroadcast() -- function definition
+// SetBroadcast function definition
 func SetBroadcast(v *Flags) {
 	*v |= FlagBroadcast
 }
 
-// IsCast() -- function definition
+// IsCast function definition
 func IsCast(v Flags) bool {
 	return v&(FlagBroadcast|FlagMulticast) != 0
 }
