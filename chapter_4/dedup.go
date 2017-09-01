@@ -1,5 +1,5 @@
 // Author: Alangi Derick
-// Using a map whose keys represent the set of lines that have already appeared 
+// Using a map whose keys represent the set of lines that have already appeared
 // to ensure that subsequent occurrences are not printed
 
 package main
